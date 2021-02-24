@@ -1,0 +1,291 @@
+/* 
+  Full Name  : ChuChunYin
+  Student ID :190141109
+  Class      :DSA1A
+*/
+body {
+	background: #fff;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+	background: url("../images/bg.jpg");
+}
+p {
+	color: #21C4C7;
+	line-height: 24px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+tp {
+	color: #325979;
+	line-height: 24px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 32px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+p a {
+	color: #2E00EC;
+	text-decoration: underline;
+}
+p a:hover {
+	color: #898989;
+}
+#header {
+	margin: 0 auto;
+	padding: 44px 0 0;
+	text-align: center;
+	background: url(../images/bg_header.jpg);
+}
+#header a.logo {
+	display: block;
+	margin: 0 auto;
+
+}
+#header a.logo img {
+	border: 0;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	height: 200px;
+	width:  460px;
+}
+#header ul {
+	margin: 0;
+	padding: 33px 0 15px;
+}
+#header ul li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0 19px;
+}
+#header ul li a {
+	color: white;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#header ul li a:hover, #header ul li.selected a {
+	color: #caa87e;
+}
+#body {
+	margin: 0;
+	padding: 0 0 30px;
+	text-align: center;
+}
+#body h1 {
+	color: #DC0000;
+	display: inline;
+	font-family: "Arial";
+	font-size: 35px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#body > div {
+	margin: 0 auto;
+	padding: 0;
+}
+#body > div .article {
+	margin: 0 auto;
+	padding: 30px 30px 0;
+	width: auto;
+}
+#body > div .article p{
+color: #005DDB;
+font-family: "Arial";
+ font-size: 22px;
+}
+#body > div .article h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0 0 30px;
+}
+#body > div .article h3 {
+	color: #13459F;
+	font-size: 32px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body div ul {
+	margin: 0;
+	padding: 24px 10px 0;
+	width: 940px;
+}
+#body div ul li {
+	border: 2px solid;
+	display: block;
+	list-style: none;
+	margin: 0 0 13px;
+	overflow: hidden;
+	padding: 0;
+}
+#body div ul li img {
+	border: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
+	opacity: 0.8;
+	transition: 0.5s ease-in-out;
+}
+#body div ul li div {
+	float: left;
+	margin: 0;
+	padding: 63px 0 20px;
+	width: 558px;
+}
+#body div ul li div h3 {
+	color: #252525;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+#body div ul li div p {
+	padding: 30px 30px 18px;
+}
+#body #featured {
+	padding: 0 0 0 0;
+}
+#body #featured table tbody tr td a span{ 	
+	color: rgba(143,72,72,1.00);
+	font-size: 26px;
+    text-align: center;
+}
+#body #featured table tbody tr td a img{ 	
+	opacity: 1; 
+    width:100%;
+    height:100%;
+}
+#body #featured table tbody tr td a:hover img{
+	opacity: 0.8;/*transparency higher*/
+}
+#body > ul {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 24px 0 0;
+	width: 960px;
+}
+#body > ul li {
+	display: block;
+	float: left;
+	margin: 0 10px 20px;
+	padding: 0;
+	width: 300px;
+}
+#body > ul li a {
+	color: rgba(143,72,72,1.00);
+	display: block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#body > ul li a img {
+	border: 2px solid;
+	display: block;
+	margin: 0;
+	padding: 0;
+	opacity: 1;
+}
+#body > ul li a:hover img {
+	opacity: 0.8;
+}
+#body > ul li a span {
+	display: block;
+	margin: 0;
+	padding: 33px 0 0;
+}
+#body form {
+	margin: 0 auto;
+	padding: 24px 0 0;
+	width: 620px;
+}
+#body form input, #body form textarea {
+	border: 2px solid #252525;
+	color: #252525;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0 0 37px;
+	padding: 20px 10px;
+	text-align: center;
+	width: 596px;
+}
+#body form textarea {
+	height: 175px;
+	overflow: auto;
+	resize: none;
+}
+#body form #send {
+	background: #1057AC;
+	color: #000000;
+	font-family: "Arial Black";
+	font-size: 15px;
+	font-weight: normal;
+	display: inline-block;
+	padding: 10px 18px;
+	width: auto;
+}
+#body form #send:hover {
+	background: #fff;
+	color: #252525;
+	cursor: pointer;
+}
+#footer {
+	background: #252525;
+	margin: 0;
+	padding: 36px 0 42px;
+}
+#footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	width: 960px;
+}
+#footer div p {
+	color: #D7FF23;
+	float: left;
+	font-size: 16px;
+	line-height: 44px;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+#footer div ul {
+	display: block;
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 256px;
+}
+#footer div ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	width: 44px;
+}
